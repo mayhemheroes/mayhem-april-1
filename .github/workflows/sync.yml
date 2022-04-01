@@ -15,7 +15,7 @@ jobs:
           fetch-depth: 0 
       
       - name: Merge Upstream
-        uses: exions/merge-upstream@v1
+        uses: ethan42/merge-upstream@v4
         with:
           upstream: dbrumley/mayhem-april-1 # set the upstream repo manually
           upstream-branch: main # upstream default branch
